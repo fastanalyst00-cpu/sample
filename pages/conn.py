@@ -16,4 +16,4 @@ if st.button("Update worksheet"):
         st.rerun()
 
     # Display our Spreadsheet as st.dataframe
-st.dataframe(df.head(10))
+st.dataframe(df)
